@@ -1,18 +1,52 @@
 package com.Maurice;
 
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.*;
-import java.io.File;
-import java.io.FileNotFoundException;
+
+enum LOAD_TYPE
+{
+    HARDCODAT, KEYBOARD, FILE
+}
+
+enum DYSPLAY_TYPE
+{
+    CONSOLA, FISIER, GUI
+}
+
 
 public class TestClass
 {
 
     public static void main(String[] args)
     {
+        Settings.initApplication();
+
+        System.out.println(Settings.loadType);
+
+        IDataLoader dataLoader = Settings.loadType == LOAD_TYPE.HARDCODAT ? new HardcodatDataManager() : new FileDataManager();
+
+        Profesor[] profesors = dataLoader.createProfesorData();
+        for(Profesor p :
+                profesors)
+        {
+            System.out.println(p);
+        }
+
+        System.out.println(dataLoader.createProfesorData());
+
+        if(Settings.loadType == LOAD_TYPE.FILE)
+        {
+            // faci citire din fisier
+        } else {
+            if (Settings.loadType == LOAD_TYPE.KEYBOARD) {
+                // faci citire de la tastatura
+            } else {
+                if (Settings.loadType == LOAD_TYPE.HARDCODAT) {
+                    // faci citire din clasa hardcodat
+                }
+            }
+        }
 //
 //		Scanner scanner = new Scanner(System.in);
 //		System.out.println("a = ");
@@ -27,8 +61,11 @@ public class TestClass
 //			System.out.println(e.getMessage());
 //		}  //exemplu citire de la tastatura
 
+        String propertyName = LOAD_TYPE.FILE.name();
+        System.out.println(propertyName);
+        ArrayList<Student> students = new ArrayList<>();
 
-        DataManager dataManager = new DataManager();
+        HardcodatDataManager dataManager = new HardcodatDataManager();
 
         dataManager.gradeStudents();
         dataManager.manager.reportAllCourses();
