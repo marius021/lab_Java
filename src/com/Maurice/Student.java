@@ -1,16 +1,27 @@
 package com.Maurice;
 
+import java.util.*;
 public class Student implements Comparable {
-    String nume;
-    String prenume;
-    int grupa;
+   public String nume;
+   public String prenume;
+   public int grupa;
 
+   public Student() { }
     Student(String nume, String prenume, int grupa) {
         this.nume = nume;
         this.prenume = prenume;
         this.grupa = grupa;
     }
 
+    Student(ArrayList<String> properties) throws Exception {
+        if ( properties.size() != 3 ) {
+            throw new Exception("Invalid number of properties! The student cannot be created!");
+        } else {
+            this.nume = properties.get(0);
+            this.prenume = properties.get(1);
+            this.grupa = Integer.parseInt(properties.get(2));
+        }
+    }
 
     @Override
     public String toString() {

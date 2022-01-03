@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e98e5f75-fb31-45e0-bd73-46e402cde4ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Maurice/FileDataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Maurice/KeyboardDataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Maurice/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/ConsoleDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/FileDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/GraphicUserInterfaceDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/IDisplayManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/LoginForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/LoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/MenuStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/StudentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/TeacherForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/TeacherForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/TeacherStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/DataManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Curs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Curs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/DYSPLAY_TYPE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/DYSPLAY_TYPE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/FileDataManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/FileDataManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LOAD_TYPE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LOAD_TYPE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Profesor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Profesor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Maurice/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/HardcodatDataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/Curs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/Curs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/FileDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/FileDataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Maurice/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +117,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="322" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -137,5 +157,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
