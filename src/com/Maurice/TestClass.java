@@ -32,7 +32,6 @@ public class TestClass
         frame.pack();
         frame.setVisible(true);
 
-
         /*
        Scanner sc = new Scanner(System.in);
         System.out.println("Username = ");

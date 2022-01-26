@@ -23,6 +23,12 @@ public class LoginForm {
                 }
             }
         });
+        signUpButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                SignUpForm signUpForm = new SignUpForm(null);
+            }
+        });
     }
 
     public JPanel getMainPanel() {
@@ -34,5 +40,6 @@ public class LoginForm {
     private JTextField txtUsername;
     private JPasswordField txtPassword;
     private JButton btnLogin;
+    private JButton signUpButton;
     private JFrame owner;
 }
