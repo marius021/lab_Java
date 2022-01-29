@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class LoginForm {
+
     public LoginForm(JFrame owner) {
         this.owner = owner;
         btnLogin.addActionListener(new ActionListener() {
@@ -16,7 +17,7 @@ public class LoginForm {
                         Application.getInstance().login(new User(txtUsername.getText(), new String(txtPassword.getPassword())));
                         JOptionPane.showMessageDialog(null, "Login successfully");
                         mainPanel.setVisible(false);
-                        owner.setContentPane(new TeacherForm().getPanel1());
+                        owner.setContentPane(new TeacherForm(owner).getPanel1());
                     } catch (Exception ex) {
                         JOptionPane.showMessageDialog(null, ex.getMessage());
                     }
@@ -27,6 +28,22 @@ public class LoginForm {
             @Override
             public void actionPerformed(ActionEvent e) {
                 SignUpForm signUpForm = new SignUpForm(null);
+            }
+        });
+        loginAsStudentButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if ( e.getSource() == loginAsStudentButton) {
+                    System.out.println("Am apasat butonul de login");
+                    try {
+                        Application.getInstance().login(new User(txtUsername.getText(), new String(txtPassword.getPassword())));
+                        JOptionPane.showMessageDialog(null, "Login successfully");
+                        mainPanel.setVisible(false);
+                    } catch (Exception ex) {
+                        JOptionPane.showMessageDialog(null, ex.getMessage());
+                    }
+                }
+
             }
         });
     }
@@ -41,5 +58,6 @@ public class LoginForm {
     private JPasswordField txtPassword;
     private JButton btnLogin;
     private JButton signUpButton;
+    private JButton loginAsStudentButton;
     private JFrame owner;
 }

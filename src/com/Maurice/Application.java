@@ -24,6 +24,13 @@ public class Application {
         return single_instance;
     }
 
+    public void setUserList(List<User> myUserList){
+        userList = myUserList;
+    }
+    public List<User> getUserList()
+    {
+        return this.userList;
+    }
     private Application() {
      /*   HardcodatDataManager dataManager = new HardcodatDataManager();
         Random r = new Random();
@@ -54,6 +61,7 @@ public class Application {
 */
         this.initUsers();
     }
+
 
     private void initUsers(){
         try (FileInputStream fis = new FileInputStream("users.xml")){

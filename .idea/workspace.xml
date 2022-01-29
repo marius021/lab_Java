@@ -2,14 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e98e5f75-fb31-45e0-bd73-46e402cde4ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Maurice/SignUpForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Maurice/SignUpForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/ApplicationData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/DISPLAY_TYPE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/FileManager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/FileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LoginForm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/SignUpForm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/StudentForm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/StudentForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/TeacherForm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/TeacherForm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/TeacherForm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/ApplicationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/StudentForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Maurice/StudentForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/DYSPLAY_TYPE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LOAD_TYPE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LOAD_TYPE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LoginForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LoginForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LoginForm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LoginForm$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/LoginForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/ManagerCursuri.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/ManagerCursuri.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Settings$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Settings$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/SignUpForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/SignUpForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/SignUpForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/SignUpForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/TeacherForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/TeacherForm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Maurice/LoginForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/LoginForm.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Maurice/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/ManagerCursusri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/ManagerCursuri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/SignUpForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/SignUpForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/SignUpForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/SignUpForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/TeacherForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/TeacherForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/TeacherForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/TeacherForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Maurice/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maurice/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maurice/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +130,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="322" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="321" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">

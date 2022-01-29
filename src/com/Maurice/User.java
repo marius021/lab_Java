@@ -10,6 +10,8 @@ public class User {
     public String userName;
     public String password;
     public MenuStrategy menuStrategy;
+    public Student studentAcc;
+    public Profesor profesorAcc;
     public User(){
 
     }
