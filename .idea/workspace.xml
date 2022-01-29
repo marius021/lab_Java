@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e98e5f75-fb31-45e0-bd73-46e402cde4ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Dell.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/ApplicationData.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/DISPLAY_TYPE.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/lab_Java/com/Maurice/FileManager$1.class" afterDir="false" />
